@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	  
+	<title>Event Bubbeling</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="page-container">
+	<div id="content-wrap">
+	<header id="main-header">
+		<div class="container">
+			<h1>JavaScript Events</h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Hem</a></li>
+				<li><a href="omjava.html">Om JavaScript</a></li>
+				<li><a href="historia.html">Historia</a></li>
+				<li><a href="eventbubbeling.html">Event Bubbeling</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<header class = heading-pages>
+			<h2>Vad är Event Bubbeling?</h2>
+		</header>
+		<div class="container">
+			<p>
+					Event Bubbeling är en term som du kanske har stött på inom JavaScript och principen är ganska enkel. Det handlar om ordningen i vilken händelsehanterare åberopas när ett element kapslas in i ett andra element och båda elementen har registrerat samma "listener" för samma händelse (till exempel ett klick).
+			</p>
+			<p>
+				Så när en händelse händer på ett element så körs först hanterare för det eventet, sedan vidare på dets "föräldrar" och sedan vidare upp till alla "förfäder". Anledningen att det kallas för just bubbeling är för att det börjar med det innersta elementet och sedan bubblar sig vidare uppåt som bubblor i vatten. Nästan alla element bubblar men inte alla.
+				</p>
+				
+		</div>
+
+
+	<div style="margin-top:200px"></div>
+	
+	</div>
+	<footer id="main-footer">
+		<p>Copyright &copy; 2019</p>
+	</footer>
+	</div>
+</body>
+</html>

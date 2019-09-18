@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	  
+	<title>Kontakt</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="page-container">
+	<div id="content-wrap">
+	<header id="main-header">
+		<div class="container">
+			<h1>JavaScript Events</h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Hem</a></li>
+				<li><a href="omjava.html">Om JavaScript</a></li>
+				<li><a href="historia.html">Historia</a></li>
+				<li><a href="eventbubbeling.html">Event Bubbeling</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div id= contact-p>
+	<p>
+		<strong>För kommentarer, frågor, synpunkter eller annat fyll i formuläret nedan.</strong>
+	</p>
+	</div>
+
+	<form class="my-form">  
+		<div class="form-group">
+			<label>Name:</label>
+			<input type="text" name="name">
+		</div>
+		<div class="form-group">
+			<label>Email:</label>
+			<input type="email" name="Email">
+		</div><div class="form-group">
+			<label>Message:</label>
+			<textarea name="Message"></textarea>
+		</div>
+		<input class="button" type="submit" value="Skicka meddelande" name="knapp" onClick="parent.location='mailto:ida_berg_@hotmail.com?subject=Angående din sida om JavaScript'; return true">
+	</form>
+
+	<div style="margin-top:200px"></div>
+	</div>
+	<footer id="main-footer">
+		<p>Copyright &copy; 2019</p>
+	</footer>
+	</div>
+</body>
+</html>
